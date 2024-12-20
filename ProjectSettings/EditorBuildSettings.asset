@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 890ecf0c811830645bed7ac59cf7e6da
+  - enabled: 1
+    path: Assets/Scenes/0_Tutorial.unity
+    guid: 18b2467af44b56d4389a2e1c3232bea9
+  - enabled: 1
+    path: Assets/Scenes/1_Neptune_Level.unity
+    guid: 0c7bd86be16f66d42b6e4b9c1d9a9d91
+  - enabled: 1
+    path: Assets/Scenes/2_Uranus_Level.unity
+    guid: c1dc42ec506289d49ac0655e2e40a6fa
+  - enabled: 1
+    path: Assets/Scenes/3_Saturn_Level.unity
+    guid: 807a0ecd0fb94c14693568d86d247c18
+  - enabled: 1
+    path: Assets/Scenes/4_Jupiter_Level.unity
+    guid: a4c2fb92c64156443b3d44c0deb7f4a9
+  - enabled: 1
+    path: Assets/Scenes/5_Mars_Level.unity
+    guid: 692bd934762b9a547aac75d180f14678
+  - enabled: 1
+    path: Assets/Scenes/6_Sun_Level.unity
+    guid: 71193fd8806664a4a8da8f2b0995a15f
+  - enabled: 1
+    path: Assets/Scenes/7_End.unity
+    guid: 2e83fcc18af9d754898a9427a62a43e1
+  - enabled: 1
+    path: Assets/Scenes/DeathScreen.unity
+    guid: 33cbd141db1a2a646a550583ef028601
+  m_configObjects: {}
