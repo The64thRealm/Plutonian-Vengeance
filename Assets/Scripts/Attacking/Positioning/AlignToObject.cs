@@ -7,6 +7,8 @@ public class AlignToObject : MonoBehaviour
     [SerializeField] private bool alignZ = false;
 
     [SerializeField] private Transform alignTo;
+
+    [SerializeField] private Vector3 offset = Vector3.zero;
     
     private void OnEnable()
     {
@@ -18,9 +20,9 @@ public class AlignToObject : MonoBehaviour
         if (!alignTo) return;
 
         transform.position = new Vector3(
-            alignX ? alignTo.position.x : transform.position.x,
-            alignY ? alignTo.position.y : transform.position.y,
-            alignZ ? alignTo.position.z : transform.position.z
+            alignX ? alignTo.position.x + offset.x : transform.position.x,
+            alignY ? alignTo.position.y + offset.y : transform.position.y,
+            alignZ ? alignTo.position.z + offset.z : transform.position.z
         );
     }
 }
